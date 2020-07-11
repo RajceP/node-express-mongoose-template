@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/app.js",
+      "runtimeArgs": ["--nolazy"],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "nodemon",
+      "restart": true,
+      "console": "internalConsole",
+      "outputCapture": "std"
+    }
+  ]
+}
