@@ -20,7 +20,7 @@ DB="mongodb://localhost:27017/collection_name"
 JWT_SECRET="top_secret"
 ```
 
-Create `.env` file:
+Start App:
 
 ```sh
 npm start
